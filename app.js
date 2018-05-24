@@ -18,7 +18,7 @@ app.post('/catalog', function(req, res) {
   res.status(201).send("");
 });
 
-var server = app.listen(8000, function () {
+var server = app.listen(8080, function () {
   var port = server.address().port;
   console.log("App ouvindo na porta %s", port);
 })
